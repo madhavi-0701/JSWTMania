@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+button{
+    width: 450px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    height: 250px;
+    border: 10px solid black;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#bt1{
+    background-color: #CC99FF ;
+}
+#bt2{
+    background-color: #CCFFFF ;
+}
+#bt3{
+    background-color: #FFCCCC;
+}
+#bt4{
+    background-color: #FFFF99;
+}
+#bt1:hover{
+    cursor: pointer;
+    box-shadow:0 6px 10px 0 #a857fa;
+}
+#bt2:hover{
+    cursor: pointer;
+    box-shadow:0 6px 10px 0 #58f9f9;
+}
+#bt3:hover{
+    cursor: pointer;
+    box-shadow:0 6px 10px 0 #fa6d6d;
+}
+#bt4:hover{
+    cursor: pointer;
+    box-shadow:0 6px 10px 0 #fafa56;
+}
